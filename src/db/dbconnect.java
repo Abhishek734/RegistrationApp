@@ -29,7 +29,7 @@ public class dbconnect{
                  updateUser = cn.prepareStatement("update REGISTRATION_ENTRIES set name=? , gender=?,dob=?,country=?,skills=?,adr=? where userid= ? "  );
                  
                  deleteUser = cn.prepareStatement("delete from REGISTRATION_ENTRIES where userid = ? ");
-                 
+                 /*this is comment for testing the github*/
                 
                  
         }catch(Exception e){
